@@ -730,12 +730,18 @@ a {
 }
 
 @media (max-width: 768px) {
+    /* Typgraphy and Layout basics */
     .hero-title {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
     }
     
     .hero-stats {
-        gap: 30px;
+        flex-direction: column;
+        gap: 20px;
     }
     
     .section-title {
@@ -745,6 +751,61 @@ a {
     .contact-links {
         flex-direction: column;
         gap: 20px;
+    }
+    
+    .stats-overview-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    /* Video Box */
+    .video-container::before {
+        display: none;
+    }
+    
+    /* Vertical Timeline Mobile Fix */
+    .vertical-timeline::before {
+        left: 20px;
+    }
+    
+    .v-timeline-item {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .v-timeline-item.left, 
+    .v-timeline-item.right {
+        left: 0;
+        padding-left: 60px;
+        padding-right: 0;
+    }
+    
+    .v-timeline-dot,
+    .v-timeline-item.left .v-timeline-dot,
+    .v-timeline-item.right .v-timeline-dot {
+        left: 13px;
+        right: auto;
+    }
+    
+    /* Gallery Grid Mobile Fix */
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2px;
+    }
+    
+    /* Modal Navigation Mobile */
+    .modal-prev, .modal-next {
+        font-size: 24px;
+        padding: 10px;
+    }
+    
+    .modal-prev {
+        left: 10px;
+    }
+    
+    .modal-next {
+        right: 10px;
     }
 }
 

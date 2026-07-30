@@ -20,6 +20,63 @@ document.addEventListener('DOMContentLoaded', () => {
     // Para adicionar os ficheiros da pasta "galeria", adicione os seus nomes ao array abaixo.
     
     const mediaFiles = [
+        "WhatsApp Image 2026-07-29 at 21.47.15 (1).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.15 (2).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.15 (3).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.15 (4).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.15 (5).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.15.jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.16 (1).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.16 (2).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.16 (3).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.16 (4).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.16 (5).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.16.jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.17 (1).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.17 (2).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.17 (3).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.17 (4).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.17 (5).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.17 (6).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.17.jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.18 (1).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.18 (2).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.18 (3).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.18 (4).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.18 (5).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.18 (6).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.18.jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.19 (1).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.19 (2).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.19 (3).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.19 (4).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.19 (5).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.19 (6).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.19.jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.20 (1).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.20 (2).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.20 (3).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.20 (4).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.20 (5).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.20 (6).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.20.jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.21 (1).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.21 (2).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.21 (3).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.21 (4).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.21 (5).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.21 (6).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.21.jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.22 (1).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.22 (2).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.22 (3).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.22 (4).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.22 (5).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.22 (6).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.22.jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.23 (1).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.23 (2).jpeg",
+        "WhatsApp Image 2026-07-29 at 21.47.23 (3).jpeg",
         "WhatsApp Image 2026-07-29 at 21.47.04 (1).jpeg",
         "WhatsApp Image 2026-07-29 at 21.47.04 (2).jpeg",
         "WhatsApp Image 2026-07-29 at 21.47.04 (3).jpeg",
@@ -78,63 +135,6 @@ document.addEventListener('DOMContentLoaded', () => {
         "WhatsApp Image 2026-07-29 at 21.47.14 (1).jpeg",
         "WhatsApp Image 2026-07-29 at 21.47.14 (2).jpeg",
         "WhatsApp Image 2026-07-29 at 21.47.14.jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.15 (1).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.15 (2).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.15 (3).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.15 (4).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.15 (5).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.15.jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.16 (1).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.16 (2).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.16 (3).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.16 (4).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.16 (5).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.16.jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.17 (1).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.17 (2).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.17 (3).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.17 (4).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.17 (5).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.17 (6).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.17.jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.18 (1).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.18 (2).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.18 (3).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.18 (4).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.18 (5).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.18 (6).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.18.jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.19 (1).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.19 (2).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.19 (3).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.19 (4).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.19 (5).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.19 (6).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.19.jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.20 (1).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.20 (2).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.20 (3).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.20 (4).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.20 (5).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.20 (6).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.20.jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.21 (1).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.21 (2).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.21 (3).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.21 (4).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.21 (5).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.21 (6).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.21.jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.22 (1).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.22 (2).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.22 (3).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.22 (4).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.22 (5).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.22 (6).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.22.jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.23 (1).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.23 (2).jpeg",
-        "WhatsApp Image 2026-07-29 at 21.47.23 (3).jpeg",
         "WhatsApp Image 2026-07-29 at 21.47.23 (4).jpeg",
         "WhatsApp Image 2026-07-29 at 21.47.23 (5).jpeg",
         "WhatsApp Image 2026-07-29 at 21.47.23 (6).jpeg",
@@ -262,11 +262,16 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderGallery() {
         if (!galleryGrid || mediaFiles.length === 0) return;
         
-        galleryGrid.innerHTML = '';
+        galleryGrid.style.opacity = '0';
+        galleryGrid.style.transform = 'translateY(15px)';
+        galleryGrid.style.transition = 'all 0.4s ease';
         
-        const startIndex = (currentPage - 1) * itemsPerPage;
-        const endIndex = startIndex + itemsPerPage;
-        const currentFiles = mediaFiles.slice(startIndex, endIndex);
+        setTimeout(() => {
+            galleryGrid.innerHTML = '';
+            
+            const startIndex = (currentPage - 1) * itemsPerPage;
+            const endIndex = startIndex + itemsPerPage;
+            const currentFiles = mediaFiles.slice(startIndex, endIndex);
         
         currentFiles.forEach((file, index) => {
             const item = document.createElement('div');
@@ -306,6 +311,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         
         renderPagination();
+        
+        setTimeout(() => {
+            galleryGrid.style.opacity = '1';
+            galleryGrid.style.transform = 'translateY(0)';
+        }, 50);
+        
+        }, 400); // Aguarda o fadeOut terminar
     }
 
     function renderPagination() {
@@ -379,27 +391,33 @@ document.addEventListener('DOMContentLoaded', () => {
     // Inicializar galeria
     renderGallery();
 
-    // 3. Efeitos de fade-in nas secções ao fazer scroll
+    // 3. Interações Premium: Efeitos de fade-in e stagger
     const observerOptions = {
         root: null,
-        rootMargin: '100px 0px',
-        threshold: 0 // Alterado para 0 para garantir que secções muito altas (como a galeria) disparam a animação
+        rootMargin: '0px 0px -50px 0px',
+        threshold: 0.1
     };
 
     const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                entry.target.style.opacity = '1';
-                entry.target.style.transform = 'translateY(0)';
+                entry.target.classList.add('active');
                 observer.unobserve(entry.target);
             }
         });
     }, observerOptions);
 
-    document.querySelectorAll('.section').forEach(section => {
-        section.style.opacity = '0';
-        section.style.transform = 'translateY(20px)';
-        section.style.transition = 'all 0.8s ease-out';
-        observer.observe(section);
+    const animatedSelectors = [
+        '.section-title', 
+        '.about-image', 
+        '.about-info', 
+        '.overview-item', 
+        '.v-timeline-item', 
+        '.contact-link'
+    ];
+    
+    document.querySelectorAll(animatedSelectors.join(', ')).forEach((el, index) => {
+        el.classList.add('reveal-element');
+        observer.observe(el);
     });
 });

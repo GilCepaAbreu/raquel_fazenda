@@ -740,6 +740,10 @@ a {
 
 @media (max-width: 768px) {
     /* Typgraphy and Layout basics */
+    .hero {
+        background-attachment: scroll; /* Fixes massive zoom on iOS */
+    }
+    
     .hero-title {
         font-size: 2.5rem;
     }
